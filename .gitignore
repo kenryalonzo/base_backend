@@ -1,0 +1,29 @@
+# Fichiers d'environnement
+.env
+.env*.local
+
+# Dependencies
+node_modules/
+
+# Fichiers de compilation TypeScript
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tests/coverage
+coverage/
+.nyc_output/
+
+# ESlint (si vous ne voulez pas commit la config)
+# eslint.config.mjs
